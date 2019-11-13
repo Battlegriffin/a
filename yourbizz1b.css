@@ -1,0 +1,84 @@
+/* THE GAP BETWEEN 64 & 85+ REMS*/
+
+@media only screen and (min-width: 64rem) and (max-width: 85.375rem) {  
+
+    
+
+     #imagery {
+
+        
+        display: block;
+        margin-top: 14%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 29.875rem;
+        width: 61%;
+        border-radius: 1.25rem;
+        
+        
+            
+        
+    
+    }
+
+    .img {
+        display: none;
+    }
+
+    .imagerkan {
+        display: none;
+    }
+
+} 
+
+ /* @media only screen and (max-width: 64rem) { 
+
+    
+
+    .imagerkan {
+
+        
+        display: block;
+        margin-top: 14%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 29.875rem;
+        width: 1%;
+        border-radius: 1.25rem;
+        
+        
+            
+        
+    
+    }
+
+    .img {
+        display: none;
+    }
+
+}  */
+
+     /* @media screen and (min-width: 51.5rem) {
+
+        #imagery {
+        
+            display: block;
+            margin-top: 21%;
+            margin-left: 24%;
+            margin-right: auto;    
+            height: 39.875rem;
+            width: 59%;
+            border-radius: 1.25rem;
+            
+            
+                
+            
+        }
+
+        .img {
+        display: none;
+    }
+                 
+                
+            
+        }      */

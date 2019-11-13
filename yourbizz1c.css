@@ -1,0 +1,73 @@
+ @media only screen and (min-width: 51.5rem) and (max-width: 64rem) { 
+
+    
+
+    .imagerkan {
+
+        
+        display: block;
+        margin-top: 14%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 29.875rem;
+        width: 5%;
+        border-radius: 1.25rem;
+        
+        
+            
+        
+    
+    }
+
+    .img {
+        display: none;
+    }
+
+    #imagery {
+        display: none;
+    }
+}  
+
+
+/* .center-xy {
+    display: flex;
+    place-items: center;
+  }
+  
+  .center-xy > *:only-child {
+    margin: auto;
+  }
+
+  img {
+    
+    min-height: 22rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding: 2rem;
+    border-radius: 4px; 
+  } */
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Presentational styles */
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  

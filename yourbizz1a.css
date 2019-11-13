@@ -1,0 +1,85 @@
+
+
+@media screen and (max-width: 48rem) {
+
+    .tabs-container {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 1.25rem;
+    
+    }
+    
+    .tabHeader {
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #eee;
+        padding: 0.375rem 0.75rem;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    
+    .active-tab {
+        border: 0.0625rem solid #eee !important;
+        border-bottom: none !important;
+    }
+    
+    .tabSection {
+        border: 0.0625rem solid #eee;
+        padding: 0.9375rem;
+    }
+    
+    .hide-tab {
+        display: none;
+    }
+    
+    .show-tab {
+        display: block;
+    }
+    
+    }
+    
+    @media screen and (min-width: 85.6875rem)
+    
+    .tabs-container {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 1.25rem;
+    
+    }
+    
+    .tabHeader {
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #eee;
+        padding: 0.375rem 0.75rem;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    
+    .active-tab {
+        border: 0.0625rem solid #eee !important;
+        border-bottom: none !important;
+    }
+    
+    .tabSection {
+        border: 0.0625rem solid #eee;
+        padding: 0.9375rem;
+    }
+    
+    .hide-tab {
+        display: none;
+    }
+    
+    .show-tab {
+        display: block;
+    }
+}
+
+
+    
+    
+    
+    
+    

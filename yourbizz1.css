@@ -1,0 +1,533 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+/*Landing Page*/
+#landing-page {
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+
+
+.title-background {
+    background: rgba(0,0,0,0.75);
+   position: relative;
+   top: 1.35%;
+    width: fit-content;
+    margin: auto;
+    padding: 2.5rem;
+    border-radius: 0.9375rem 3.125rem;
+          border-style: solid;
+          border-width: 0.2146875rem;
+          border-color: rgba(0,0,0,17);
+}
+
+.title {
+    text-align: center;
+    color: #d0d3d4;
+    font-size: 2em;
+}
+
+/* NAV BAR */
+
+#navbar 
+/* NAV SLIDER */
+
+.nav-slider 
+
+/* NAV-SLIDER-SECTION*/
+
+
+
+.openNav 
+
+.closeNav 
+
+
+
+/* MENU */
+#Menus 
+
+.menu-title 
+
+
+
+/*RESTAURANT INFO*/
+
+#restaurant-info {
+    background: #070707;
+    padding: 1.25rem;
+}
+
+
+.restaurant-info-title {
+    color: #d3cac8 !important;
+    text-align: center;
+
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.address-content, .business-hours, .contact-content  {
+    padding: 0.625rem;
+    font-size: 1em !important;
+    text-align: center;
+    color: #d3cac8;
+
+}
+
+.phone {
+    font-size: 1em !important;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 85.625rem) {
+    .info-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .address-content, .business-hours  {
+        border-right: 0.0625rem solid #eee;
+        
+    }
+
+    #navbar {
+        position: fixed;
+        top: 0.8125rem;
+        left: 1.25rem;
+        width: 34%;
+        height: 10%;
+        background-color: rgba(219,126,126,0.5);
+        <!--background-color: rgba(193,67,67,5);-->
+        }
+    
+        
+        nav ul {
+        margin: 0px;
+        padding: 0.3125rem 0px 0.3125rem 3.125rem;
+        }
+        
+        nav li {
+        display: inline;
+        margin-right: 0.625rem;
+        }
+        
+        a {
+        text-decoration: none;
+        color: white;
+        font-family: "Oleo Script";
+        }
+        
+        nav:hover {
+        transform: scale(1.02);
+        }
+          
+         .rcorners1 {
+          border-radius: 0.9375rem 3.125rem;
+          border-style: solid;
+          border-width: 0.214375rem;
+          border-color: rgba(0,0,0,17);
+          padding: 1.25rem;
+          width: 18.75rem;
+          height: 3.75rem;
+        }
+
+        #Menus {
+            display: none;
+        }
+
+        .nav-slider-section {
+            display: none;
+        }
+
+    
+
+    
+}
+
+@media screen and (max-width: 85.625rem) {
+
+    #navbar {
+        display: none;
+    }
+
+    .nav-slider {
+        padding: 0.9375rem;
+        cursor: pointer;
+    
+    }
+
+    #nav-slider-background {
+
+        background-color: rgba(219,126,126,0.5);
+        width: fit-content;
+        position: relative;
+   top: 1.65%;
+   left: 1.967%;
+   padding: 0.4969375rem;
+   border-radius: 0.9375rem;
+          border-style: solid;
+          border-width: 0.04375rem;
+          border-color: rgba(0,0,0,17);
+
+    }
+    
+    .line {
+        background: #eee;
+        height: 0.1875rem;
+        margin: 0.3125rem;
+        width: 1.875rem;
+    }
+    
+    .line:nth-child(1) {
+        margin-top: 0;
+    }
+
+    .openNav {
+        animation: openNav 0.5s forwards;
+    
+    }
+
+    .closeNav {
+        animation: closeNav 0.5s forwards;
+    }
+
+        .title-background {
+            background: rgba(0,0,0,0.75);
+           position: relative;
+           top: 3.75%;
+            width: fit-content;
+            margin: auto;
+            padding: 0.9375rem;
+            border-radius: 0.9375rem 3.125rem;
+                  border-style: solid;
+                  border-width: 0.2146875rem;
+                  border-color: rgba(0,0,0,17);
+        }
+    
+    }
+
+    @keyframes openNav {
+        100% {
+            transform: translateX(0%);
+        }
+    }
+    
+    @keyframes closeNav {
+        0% {
+            transform: translateX(0%);
+        }
+    
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .nav-slider-section {
+        background: rgba(0,0,0,0.8);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transform: translateX(-100%);
+    }
+    
+    .close-nav-slider {
+        border: none;
+        outline: none;
+        float: right;
+        background: transparent;
+        color: rgba(130, 172, 197, 0.5);;
+        font-size: 1.1em;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    #close-nav-slider-background {
+        background-color: rgba(221, 76, 19, 0.158);
+        width: fit-content;
+        position: relative;
+        
+   right: 0.8%;
+   margin: 6.1px;
+   border-radius: 0.9375rem;
+          border-style: solid;
+          border-width: 0.04375rem;
+          border-color: rgba(19, 214, 221, 1.7);
+   
+   
+    }
+    
+    .nav-links-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    
+    }
+    
+    .nav-links-container li {
+        text-align: center;
+        padding: 0.625rem;
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        color: #eee;
+        font-size: 1.1em;
+    }
+    
+    .ul{ list-style-type: none; }
+
+    #Menus {
+        background:  #000;
+    }
+    
+    .menu-title {
+        color: #d0d3d4;
+        text-align: center;
+        padding: 1.5625rem;
+        font-size: 1.1em;
+    
+    }
+    
+    p {
+        color: #eee;
+    }
+
+    
+    
+}
+
+/* TRANSFORMATION STATION  */
+@media screen and (min-width: 85.6875rem) {
+
+   
+
+    .title-background {
+        background: rgba(0,0,0,0.75);
+       position: relative;
+       top: 3.75%;
+        width: fit-content;
+        margin: auto;
+        padding: 0.9375rem;
+        border-radius: 0.9375rem 3.125rem;
+              border-style: solid;
+              border-width: 0.1521875rem;
+              border-color: rgba(0,0,0,17);
+    }
+
+    #navbar {
+        position: fixed;
+        top: 0.8125rem;
+        left: 1.25rem;
+        width: 30%;
+        height: 10%;
+        background-color: rgba(219,126,126,0.5);
+        <!--background-color: rgba(193,67,67,5);-->
+        }
+    
+        
+        nav ul {
+        margin: 0px;
+        padding: 0.3125rem 0px 0.3125rem 3.125rem;
+        }
+        
+        nav li {
+        display: inline;
+        margin-right: 0.625rem;
+        }
+        
+        a {
+        text-decoration: none;
+        color: white;
+        font-family: "Oleo Script";
+        }
+        
+        nav:hover {
+        transform: scale(1.02);
+        }
+          
+         .rcorners1 {
+          border-radius: 0.9375rem 3.125rem;
+          border-style: solid;
+          border-width: 0.214375rem;
+          border-color: rgba(0,0,0,17);
+          padding: 1.25rem;
+          width: 18.75rem;
+          height: 3.75rem;
+        }
+
+        #Menus {
+            background:  #000;
+        }
+        
+        .menu-title {
+            color: #d0d3d4;
+            text-align: center;
+            padding: 1.5625rem;
+            font-size: 1.1em;
+        
+        }
+        
+        p {
+            color: #eee;
+        }
+
+}
+
+/* FIRST ".IMG" QUERY*/
+
+@media screen and (min-width: 85.375rem) { 
+
+     .img {
+
+        
+        display: block;
+        margin-top: 7%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 29.875rem;
+        width: 31%;
+        border-radius: 1.25rem;
+        
+        
+            
+        
+    
+    } 
+
+    .title-background {
+        background: rgba(0,0,0,0.75);
+       position: relative;
+       top: 3.75%;
+        width: fit-content;
+        margin: auto;
+        padding: 0.9375rem;
+        border-radius: 0.9375rem 3.125rem;
+              border-style: solid;
+              border-width: 0.1521875rem;
+              border-color: rgba(0,0,0,17);
+    }
+
+    #navbar {
+        position: fixed;
+        top: 0.8125rem;
+        left: 1.25rem;
+        width: 30%;
+        height: 10%;
+        background-color: rgba(219,126,126,0.5);
+        <!--background-color: rgba(193,67,67,5);-->
+        }
+    
+        
+        nav ul {
+        margin: 0px;
+        padding: 0.3125rem 0px 0.3125rem 3.125rem;
+        }
+        
+        nav li {
+        display: inline;
+        margin-right: 0.625rem;
+        }
+        
+        a {
+        text-decoration: none;
+        color: white;
+        font-family: "Oleo Script";
+        }
+        
+        nav:hover {
+        transform: scale(1.02);
+        }
+          
+         .rcorners1 {
+          border-radius: 0.9375rem 3.125rem;
+          border-style: solid;
+          border-width: 0.214375rem;
+          border-color: rgba(0,0,0,17);
+          padding: 1.25rem;
+          width: 18.75rem;
+          height: 3.75rem;
+        }
+
+        #Menus {
+            background:  #000;
+        }
+        
+        .menu-title {
+            color: #d0d3d4;
+            text-align: center;
+            padding: 1.5625rem;
+            font-size: 1.1em;
+        
+        }
+        
+        p {
+            color: #eee;
+        }
+
+         #imagery {
+            display: none;
+        }
+
+        .imagerkan {
+            display: none;
+        } 
+         
+
+
+
+}
+
+
+
+
+
+
+ 
+
+        @media screen and (max-width: 64rem) { 
+
+             .img {
+            
+                display: block;
+                margin-top: 21%;
+                margin-left: 17%;
+                margin-right: auto;    
+                height: 11.875rem;
+                width: 68%;
+                border-radius: 1.25rem;
+                
+                
+                    
+                
+            } 
+
+             #imagery {
+                display: none;
+            }
+
+            .imagerkan {
+                display: none;
+            } 
+                     
+                    
+                
+            } 
