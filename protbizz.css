@@ -1,0 +1,467 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+/*Landing Page*/
+#landing-page {
+    background-image: url(protbizz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.title-background {
+    background: rgba(0,0,0,0.75);
+   position: relative;
+   top: 1.35%;
+    width: fit-content;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px 50px;
+          border-style: solid;
+          border-width: 3.435px;
+          border-color: rgba(0,0,0,17);
+}
+
+.title {
+    text-align: center;
+    color: #d0d3d4;
+    font-size: 2em;
+}
+
+/* NAV BAR */
+
+#navbar 
+/* NAV SLIDER */
+
+.nav-slider 
+
+/* NAV-SLIDER-SECTION*/
+
+
+
+.openNav 
+
+.closeNav 
+
+
+
+/* MENU */
+#Menus 
+
+.menu-title 
+
+
+
+/*RESTAURANT INFO*/
+
+#restaurant-info {
+    background: #070707;
+    padding: 20px;
+}
+
+
+.restaurant-info-title {
+    color: #d3cac8 !important;
+    text-align: center;
+
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.address-content, .business-hours, .contact-content  {
+    padding: 10px;
+    font-size: 1em !important;
+    text-align: center;
+    color: #d3cac8;
+
+}
+
+.phone {
+    font-size: 1em !important;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 1370px) {
+    .info-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .address-content, .business-hours  {
+        border-right: 1px solid #eee;
+        
+    }
+
+    #navbar {
+        position: fixed;
+        top: 13px;
+        left: 20px;
+        width: 34%;
+        height: 10%;
+        background-color: rgba(219,126,126,0.5);
+        <!--background-color: rgba(193,67,67,5);-->
+        }
+    
+        
+        nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 50px;
+        }
+        
+        nav li {
+        display: inline;
+        margin-right: 10px;
+        }
+        
+        a {
+        text-decoration: none;
+        color: white;
+        font-family: "Oleo Script";
+        }
+        
+        nav:hover {
+        transform: scale(1.02);
+        }
+          
+         .rcorners1 {
+          border-radius: 15px 50px;
+          border-style: solid;
+          border-width: 3.43px;
+          border-color: rgba(0,0,0,17);
+          padding: 20px;
+          width: 300px;
+          height: 60px;
+        }
+
+        #Menus {
+            display: none;
+        }
+
+        .nav-slider-section {
+            display: none;
+        }
+
+    
+
+    
+}
+
+@media screen and (max-width: 1370px) {
+
+    #navbar {
+        display: none;
+    }
+
+    .nav-slider {
+        padding: 15px;
+        cursor: pointer;
+    
+    }
+
+    #nav-slider-background {
+
+        background-color: rgba(219,126,126,0.5);
+        width: fit-content;
+        position: relative;
+   top: 1.65%;
+   left: 1.967%;
+   padding: 7.951px;
+   border-radius: 15px;
+          border-style: solid;
+          border-width: 0.7px;
+          border-color: rgba(0,0,0,17);
+
+    }
+    
+    .line {
+        background: #eee;
+        height: 3px;
+        margin: 5px;
+        width: 30px;
+    }
+    
+    .line:nth-child(1) {
+        margin-top: 0;
+    }
+
+    .openNav {
+        animation: openNav 0.5s forwards;
+    
+    }
+
+    .closeNav {
+        animation: closeNav 0.5s forwards;
+    }
+
+        .title-background {
+            background: rgba(0,0,0,0.75);
+           position: relative;
+           top: 3.75%;
+            width: fit-content;
+            margin: auto;
+            padding: 15px;
+            border-radius: 15px 50px;
+                  border-style: solid;
+                  border-width: 3.435px;
+                  border-color: rgba(0,0,0,17);
+        }
+    
+    }
+
+    @keyframes openNav {
+        100% {
+            transform: translateX(0%);
+        }
+    }
+    
+    @keyframes closeNav {
+        0% {
+            transform: translateX(0%);
+        }
+    
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .nav-slider-section {
+        background: rgba(0,0,0,0.8);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transform: translateX(-100%);
+    }
+    
+    .close-nav-slider {
+        border: none;
+        outline: none;
+        float: right;
+        background: transparent;
+        color: rgba(130, 172, 197, 0.5);;
+        font-size: 1.1em;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    #close-nav-slider-background {
+        background-color: rgba(221, 76, 19, 0.158);
+        width: fit-content;
+        position: relative;
+        
+   right: 0.8%;
+   margin: 6.1px;
+   border-radius: 15px;
+          border-style: solid;
+          border-width: 0.7px;
+          border-color: rgba(19, 214, 221, 1.7);
+   
+   
+    }
+    
+    .nav-links-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    
+    }
+    
+    .nav-links-container li {
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        color: #eee;
+        font-size: 1.1em;
+    }
+    
+    .ul{ list-style-type: none; }
+
+    #Menus {
+        background:  #000;
+    }
+    
+    .menu-title {
+        color: #d0d3d4;
+        text-align: center;
+        padding: 25px;
+        font-size: 1.1em;
+    
+    }
+    
+    p {
+        color: #eee;
+    }
+
+    
+    
+}
+
+/* TRANSFORMATION STATION  */
+@media screen and (min-width: 1371px) {
+
+   
+
+    .title-background {
+        background: rgba(0,0,0,0.75);
+       position: relative;
+       top: 3.75%;
+        width: fit-content;
+        margin: auto;
+        padding: 15px;
+        border-radius: 15px 50px;
+              border-style: solid;
+              border-width: 2.435px;
+              border-color: rgba(0,0,0,17);
+    }
+
+    #navbar {
+        position: fixed;
+        top: 13px;
+        left: 20px;
+        width: 30%;
+        height: 10%;
+        background-color: rgba(219,126,126,0.5);
+        <!--background-color: rgba(193,67,67,5);-->
+        }
+    
+        
+        nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 50px;
+        }
+        
+        nav li {
+        display: inline;
+        margin-right: 10px;
+        }
+        
+        a {
+        text-decoration: none;
+        color: white;
+        font-family: "Oleo Script";
+        }
+        
+        nav:hover {
+        transform: scale(1.02);
+        }
+          
+         .rcorners1 {
+          border-radius: 15px 50px;
+          border-style: solid;
+          border-width: 3.43px;
+          border-color: rgba(0,0,0,17);
+          padding: 20px;
+          width: 300px;
+          height: 60px;
+        }
+
+        #Menus {
+            background:  #000;
+        }
+        
+        .menu-title {
+            color: #d0d3d4;
+            text-align: center;
+            padding: 25px;
+            font-size: 1.1em;
+        
+        }
+        
+        p {
+            color: #eee;
+        }
+
+}
+
+@media screen and (min-width: 1371px) {
+
+    
+
+    .title-background {
+        background: rgba(0,0,0,0.75);
+       position: relative;
+       top: 3.75%;
+        width: fit-content;
+        margin: auto;
+        padding: 15px;
+        border-radius: 15px 50px;
+              border-style: solid;
+              border-width: 2.435px;
+              border-color: rgba(0,0,0,17);
+    }
+
+    #navbar {
+        position: fixed;
+        top: 13px;
+        left: 20px;
+        width: 30%;
+        height: 10%;
+        background-color: rgba(219,126,126,0.5);
+        <!--background-color: rgba(193,67,67,5);-->
+        }
+    
+        
+        nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 50px;
+        }
+        
+        nav li {
+        display: inline;
+        margin-right: 10px;
+        }
+        
+        a {
+        text-decoration: none;
+        color: white;
+        font-family: "Oleo Script";
+        }
+        
+        nav:hover {
+        transform: scale(1.02);
+        }
+          
+         .rcorners1 {
+          border-radius: 15px 50px;
+          border-style: solid;
+          border-width: 3.43px;
+          border-color: rgba(0,0,0,17);
+          padding: 20px;
+          width: 300px;
+          height: 60px;
+        }
+
+        #Menus {
+            background:  #000;
+        }
+        
+        .menu-title {
+            color: #d0d3d4;
+            text-align: center;
+            padding: 25px;
+            font-size: 1.1em;
+        
+        }
+        
+        p {
+            color: #eee;
+        }
+
+}
